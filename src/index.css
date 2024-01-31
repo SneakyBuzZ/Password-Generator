@@ -1,0 +1,84 @@
+*{
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #1b1b1b;
+}
+
+.bigcontainer{
+    margin: 12% auto;
+    width: 39%;
+    background-color: #e5e5e5;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 14px;
+}
+
+p{
+    color: #999595;
+    margin-top: 23px;
+    font-family: Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.uppercontainer{
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76%;
+    margin-top: 2%;
+}
+
+.uppercontainer input{
+    width: 71%;
+    height: 45%;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    padding-left: 9px;
+    font-size: 17px;
+    color: #939393;
+}
+.uppercontainer input:focus,
+.uppercontainer input:focus-visible{
+    outline: 1px solid rgb(213 212 212);
+}
+
+.uppercontainer button{
+    width: 27%;
+    height: 45%;
+    /* background: linear-gradient(90deg, rgba(0,219,255,1) 0%, rgb(106 152 255) 0%, rgb(0 212 255) 100%); */
+    background-color: #0080ff;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    color: #e9e9e9;
+    cursor: pointer;
+    font-size: 15px;
+}
+.uppercontainer button:active{
+    transform: scale(0.98);
+}
+
+.lowercontainer{
+    height: 14%;
+    display: flex;
+    justify-content: center;
+    width: 158%;
+}
+.lowercontainer input{
+    cursor: pointer;
+}
+.lowercontainer #len{
+    width: 15%;
+}
+.lowercontainer label{
+    width: 9%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    color: #8f8f8f
+}
